@@ -1,0 +1,104 @@
+// VARIAVEL DE HEADER
+$largura:30%;
+$comprimento:98vh;
+$lugar:absolute;
+$primeira_cor: #002580;
+$segunda_cor: #00994c;
+$terceira_cor: #f3e718;
+
+//ICON DENTRO DO HEADER
+$icon: url("../icons/icon_fortaleza.png");
+
+//FONT
+$modelo_familiar: 'Rubik', sans-serif;
+$primeira_cor_font: white;
+
+//CODIGO DA HEADER
+@mixin titulos(){
+    width: 72%;
+    margin-top: 127px;
+    margin-left: 52px;
+    font-family: $modelo_familiar;
+    font-size: x-large;
+    font-weight: 500;
+}
+@mixin icone(){
+    width: 88%;
+    height: 14%;
+    margin-top: 9%;
+    padding: 26px;
+    position: $lugar;
+    background: $icon;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@mixin cabeca(){
+    width: $largura;
+    height: $comprimento;
+    position: $lugar;
+    background: $primeira_cor;
+    color: $primeira_cor_font;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+@mixin nave(){
+    width: 100%;
+    margin-top: 58%;
+}
+@mixin menu(){
+    padding: 2px;
+    font-family: $modelo_familiar;
+    font-size: 21px;
+    cursor: pointer;
+    font-weight: 200;
+    text-decoration: none;
+    list-style: none;
+}
+@mixin NomeCriador(){
+    font-family: $modelo_familiar;
+    font-size: 13px;
+    font-weight: 100;
+}
+// CODIGO DA SECTION MAE
+@mixin mae(){
+    width: 69%;
+    height: 938vh;
+    background: red;
+    margin-left: 31%;
+    position: fixed;
+    overflow:auto;
+}
+@mixin pai(){
+    width: 100%;
+    position: $lugar;
+    height: 471vh;
+    background: green;
+}
+@mixin TitulosDentroCorpo(){
+    margin-top: 41px;
+    margin-left: 52px;
+    font-family: $modelo_familiar;
+    font-size: x-large;
+    font-weight: 500;
+}
+@mixin TextoApresentacao(){
+    position: $lugar;
+    font-family: $modelo_familiar;
+    font-weight: 400;
+    font-size: larger;
+    line-height: 32px;
+    margin-left: 69%;
+}
+
+@mixin ImagemDaFortaleza(){
+    border-radius: 2%;
+}
+@mixin text(){
+    position: $lugar;
+    font-family:$modelo_familiar;
+    font-weight: 400;
+    font-size: larger;
+    line-height: 32px;
+}
