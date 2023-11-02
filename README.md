@@ -1,5 +1,5 @@
 
 <img src="./Public/icons/logoFaculdadeFortalezaPreto.png">
 
-# Fortaleza
+# Fortaleza de São José
 Projeto de Extensão do Centro Educacional Anhanguera
