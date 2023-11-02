@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400&display=swap');
+
+
+#container{
+    @include cabeca();
+}
+nav{
+    @include nave();
+}
+ul a{
+    color: $primeira_cor_font;
+    @include menu();
+}
+.icon{
+    @include icone();
+}
+.titulos{
+    @include titulos();
+}
+#nome-criador{
+    @include NomeCriador();
+}
+// CORPO DO SITE
+#mae{
+    @include mae();
+}
+#pai{
+    @include pai();
+}
+.texto-apresentacao{
+    @include TextoApresentacao();
+}
+#imagem-da-fortaleza{
+    @include ImagemDaFortaleza()
+}
+.title-dos-texto{
+    @include TitulosDentroCorpo();
+}
+.text{
+    @include text();
+}
+.text-segundo{
+    width: 37%;
+    margin-left: 63%;
+    margin-top: -45%;
+    @include text();
+}
+.text-terceiro{
+    margin-top: 38px;
+    @include text();
+}
+.pai-dos-titles-text{
+    margin-top: 42%;
+}
+.segunda-imagem{
+    width: 61%;
+    border-radius: 2%;
+}
