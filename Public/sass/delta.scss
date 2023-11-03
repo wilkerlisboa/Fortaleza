@@ -26,6 +26,7 @@ ul a{
     @include pai();
 }
 .texto-apresentacao{
+    animation: go-back 1s;
     @include TextoApresentacao();
 }
 #imagem-da-fortaleza{
@@ -59,4 +60,35 @@ ul a{
 }
 .first{
     margin-top: 90%;
+}
+// ANIMAÇÃO
+#Inicio{
+    animation: go-back 1s;
+}
+#Antecedentes{
+    animation: go-back 1s;
+}
+#Construção{
+    animation: go-back 1s;
+}
+#Colônia-ao-Império{
+    animation: go-back 1s;
+}
+#Periodo{
+    animation: go-back 1s;
+}
+#constituição{
+    animation: go-back 1s;
+}
+#caracter{
+    animation: go-back 1s;
+}
+/*Teste de animação*/
+@keyframes go-back {
+    from {
+      transform: translateY(100px);
+    }
+    to {
+      transform: translateY(0);
+    }
 }
