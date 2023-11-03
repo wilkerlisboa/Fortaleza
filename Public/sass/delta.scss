@@ -47,10 +47,16 @@ ul a{
     margin-top: 38px;
     @include text();
 }
+.text-quarto{
+    @include texteParteDois()
+}
 .pai-dos-titles-text{
     margin-top: 42%;
 }
 .segunda-imagem{
     width: 61%;
     border-radius: 2%;
+}
+.first{
+    margin-top: 90%;
 }
