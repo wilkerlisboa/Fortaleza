@@ -64,7 +64,7 @@ $primeira_cor_font: white;
 // CODIGO DA SECTION MAE
 @mixin mae(){
     width: 69%;
-    height: 938vh;
+    height: 474vh;
     background: red;
     margin-left: 31%;
     position: fixed;
@@ -73,7 +73,7 @@ $primeira_cor_font: white;
 @mixin pai(){
     width: 100%;
     position: $lugar;
-    height: 471vh;
+    height: 923vh;
     background: green;
 }
 @mixin TitulosDentroCorpo(){
@@ -101,4 +101,11 @@ $primeira_cor_font: white;
     font-weight: 400;
     font-size: larger;
     line-height: 32px;
+}
+@mixin texteParteDois(){
+    margin-top: 24%;
+    position: $lugar;
+    font-family:$modelo_familiar;
+    font-weight: 300;
+    line-height: 23px;
 }
