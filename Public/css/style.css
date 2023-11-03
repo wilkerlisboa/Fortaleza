@@ -55,7 +55,7 @@ ul a {
 
 #mae {
   width: 69%;
-  height: 938vh;
+  height: 474vh;
   background: red;
   margin-left: 31%;
   position: fixed;
@@ -65,7 +65,7 @@ ul a {
 #pai {
   width: 100%;
   position: absolute;
-  height: 471vh;
+  height: 923vh;
   background: green;
 }
 
@@ -118,6 +118,14 @@ ul a {
   line-height: 32px;
 }
 
+.text-quarto {
+  margin-top: 24%;
+  position: absolute;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  line-height: 23px;
+}
+
 .pai-dos-titles-text {
   margin-top: 42%;
 }
@@ -125,6 +133,10 @@ ul a {
 .segunda-imagem {
   width: 61%;
   border-radius: 2%;
+}
+
+.first {
+  margin-top: 90%;
 }
 
 /*# sourceMappingURL=style.css.map */
