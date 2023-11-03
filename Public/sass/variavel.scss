@@ -16,8 +16,8 @@ $primeira_cor_font: white;
 //CODIGO DA HEADER
 @mixin titulos(){
     width: 72%;
-    margin-top: 127px;
-    margin-left: 52px;
+    margin-top: 146px;
+    margin-left: 21%;
     font-family: $modelo_familiar;
     font-size: x-large;
     font-weight: 500;
@@ -48,7 +48,7 @@ $primeira_cor_font: white;
     margin-top: 58%;
 }
 @mixin menu(){
-    padding: 2px;
+
     font-family: $modelo_familiar;
     font-size: 21px;
     cursor: pointer;
@@ -57,6 +57,7 @@ $primeira_cor_font: white;
     list-style: none;
 }
 @mixin NomeCriador(){
+    margin-top: 13%;
     font-family: $modelo_familiar;
     font-size: 13px;
     font-weight: 100;
@@ -64,8 +65,7 @@ $primeira_cor_font: white;
 // CODIGO DA SECTION MAE
 @mixin mae(){
     width: 69%;
-    height: 474vh;
-    background: red;
+    height: 493vh;
     margin-left: 31%;
     position: fixed;
     overflow:auto;
@@ -73,8 +73,7 @@ $primeira_cor_font: white;
 @mixin pai(){
     width: 100%;
     position: $lugar;
-    height: 923vh;
-    background: green;
+    height: 1018vh;
 }
 @mixin TitulosDentroCorpo(){
     margin-top: 41px;
