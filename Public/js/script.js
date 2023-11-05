@@ -68,3 +68,7 @@ home.onclick = function efeito() {
       e.style.animation = "";
    }, 100);
 }
+
+$('.btn-menu').on('click touchstart', function () {
+   $('html').toggleClass('btn-menu-active');
+});
