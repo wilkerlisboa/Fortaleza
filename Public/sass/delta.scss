@@ -11,6 +11,7 @@ nav{
     @include nave();
 }
 ul a{
+    line-height: 158%;
     color: $primeira_cor_font;
     @include menu();
 }
@@ -38,6 +39,7 @@ ul a{
     @include ImagemDaFortaleza()
 }
 .title-dos-texto{
+    padding-bottom: 4%;
     @include TitulosDentroCorpo();
 }
 .text{
@@ -71,9 +73,11 @@ ul a{
     animation: go-back 1s;
 }
 #Antecedentes{
+    margin-top: 10%;
     animation: go-back 1s;
 }
 #Construção{
+    margin-top: 52%;
     animation: go-back 1s;
 }
 #Colônia-ao-Império{
@@ -83,9 +87,11 @@ ul a{
     animation: go-back 1s;
 }
 #constituição{
+    margin-top: 48%;
     animation: go-back 1s;
 }
 #caracter{
+    margin-top: 60%;
     animation: go-back 1s;
 }
 /*Teste de animação*/
@@ -100,7 +106,18 @@ ul a{
 span{
     display: none;
 }
-
+#Quarto-texto{
+    @include quarto-text();
+}
+.texto-quinto{
+    @include quarto-text();
+}
+.text-sexto{
+    @include quarto-text();
+}
+.text-setimo{
+    @include quarto-text();
+}
 
 
 
