@@ -59,6 +59,8 @@ ul a {
   font-family: "Rubik", sans-serif;
   font-size: 13px;
   font-weight: 100;
+  text-decoration: none;
+  color: white;
 }
 
 #mae {
