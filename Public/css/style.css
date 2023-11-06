@@ -7,7 +7,7 @@
 
 #container {
   width: 30%;
-  height: 98vh;
+  height: 100vh;
   position: absolute;
   background: #002580;
   color: white;
@@ -19,10 +19,12 @@
 
 nav {
   width: 100%;
-  margin-top: 58%;
+  margin-top: 67%;
+  margin-left: 43%;
 }
 
 ul a {
+  line-height: 158%;
   color: white;
   font-family: "Rubik", sans-serif;
   font-size: 21px;
@@ -46,7 +48,7 @@ ul a {
 .titulos {
   width: 72%;
   margin-top: 146px;
-  margin-left: 21%;
+  margin-left: 18%;
   font-family: "Rubik", sans-serif;
   font-size: x-large;
   font-weight: 500;
@@ -70,7 +72,7 @@ ul a {
 #pai {
   width: 100%;
   position: absolute;
-  height: 1018vh;
+  height: 1091vh;
 }
 
 .texto-apresentacao {
@@ -80,7 +82,7 @@ ul a {
   font-weight: 400;
   font-size: larger;
   line-height: 32px;
-  margin-top: 76%;
+  margin-left: 69%;
 }
 
 #imagem-da-fortaleza {
@@ -88,6 +90,7 @@ ul a {
 }
 
 .title-dos-texto {
+  padding-bottom: 4%;
   margin-top: 41px;
   margin-left: 52px;
   font-family: "Rubik", sans-serif;
@@ -149,10 +152,12 @@ ul a {
 }
 
 #Antecedentes {
+  margin-top: 10%;
   animation: go-back 1s;
 }
 
 #Construção {
+  margin-top: 52%;
   animation: go-back 1s;
 }
 
@@ -165,10 +170,12 @@ ul a {
 }
 
 #constituição {
+  margin-top: 48%;
   animation: go-back 1s;
 }
 
 #caracter {
+  margin-top: 60%;
   animation: go-back 1s;
 }
 
@@ -183,6 +190,42 @@ ul a {
 }
 span {
   display: none;
+}
+
+#Quarto-texto {
+  position: absolute;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: larger;
+  line-height: 32px;
+  margin-top: 4%;
+}
+
+.texto-quinto {
+  position: absolute;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: larger;
+  line-height: 32px;
+  margin-top: 4%;
+}
+
+.text-sexto {
+  position: absolute;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: larger;
+  line-height: 32px;
+  margin-top: 4%;
+}
+
+.text-setimo {
+  position: absolute;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: larger;
+  line-height: 32px;
+  margin-top: 4%;
 }
 
 @media only screen and (max-width: 410px), only screen and (max-device-width: 996px) {
