@@ -1,6 +1,6 @@
 // VARIAVEL DE HEADER
 $largura:30%;
-$comprimento:98vh;
+$comprimento:100vh;
 $lugar:absolute;
 $primeira_cor: #002580;
 $segunda_cor: #00994c;
@@ -17,7 +17,7 @@ $primeira_cor_font: white;
 @mixin titulos(){
     width: 72%;
     margin-top: 146px;
-    margin-left: 21%;
+    margin-left: 18%;
     font-family: $modelo_familiar;
     font-size: x-large;
     font-weight: 500;
@@ -45,7 +45,8 @@ $primeira_cor_font: white;
 }
 @mixin nave(){
     width: 100%;
-    margin-top: 58%;
+    margin-top: 67%;
+    margin-left: 43%;
 }
 @mixin menu(){
 
@@ -73,7 +74,7 @@ $primeira_cor_font: white;
 @mixin pai(){
     width: 100%;
     position: $lugar;
-    height: 1018vh;
+    height: 1091vh;
 }
 @mixin TitulosDentroCorpo(){
     margin-top: 41px;
@@ -100,6 +101,7 @@ $primeira_cor_font: white;
     font-weight: 400;
     font-size: larger;
     line-height: 32px;
+    
 }
 @mixin texteParteDois(){
     margin-top: 24%;
@@ -107,4 +109,12 @@ $primeira_cor_font: white;
     font-family:$modelo_familiar;
     font-weight: 300;
     line-height: 23px;
+}
+@mixin quarto-text{
+    position: $lugar;
+    font-family:$modelo_familiar;
+    font-weight: 400;
+    font-size: larger;
+    line-height: 32px;
+    margin-top: 4%;
 }
