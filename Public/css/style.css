@@ -229,12 +229,12 @@ span {
     transform: translateX(0);
   }
   .btn-menu-active .btn-menu {
-    transform: translateX(212px);
+    transform: translateX(221px);
     z-index: 4;
     left: 0px;
   }
   #container {
-    width: 48%;
+    width: 63%;
     height: 100vh;
     background: #002580;
     margin-left: -3%;
@@ -283,7 +283,7 @@ span {
     width: 100%;
     position: absolute;
     display: flex;
-    height: 687%;
+    height: 893%;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
@@ -307,7 +307,7 @@ span {
   #Antecedentes {
     width: 100%;
     animation: go-back 1s;
-    margin-top: 75%;
+    margin-top: 118%;
   }
   .text {
     position: absolute;
@@ -322,7 +322,7 @@ span {
   #Construção {
     animation: go-back 1s;
     width: 100%;
-    margin-top: 124%;
+    margin-top: 222%;
   }
   .text-segundo {
     width: 86%;
@@ -335,7 +335,7 @@ span {
     line-height: 32px;
   }
   .text-terceiro {
-    margin-top: 395px;
+    margin-top: 516px;
     width: 87%;
     position: absolute;
     font-family: "Rubik", sans-serif;
@@ -352,7 +352,7 @@ span {
   #Colônia-ao-Império {
     animation: go-back 1s;
     width: 100%;
-    margin-top: 199%;
+    margin-top: 390%;
   }
   #Quarto-texto {
     margin-top: 3px;
@@ -365,7 +365,7 @@ span {
     margin-left: 7%;
   }
   .text-quarto {
-    margin-top: 77%;
+    margin-top: 136%;
     position: absolute;
     font-family: "Rubik", sans-serif;
     font-weight: 300;
@@ -377,7 +377,7 @@ span {
     animation: go-back 1s;
     position: absolute;
     width: 100%;
-    margin-top: 942%;
+    margin-top: 1589%;
   }
   .texto-quinto {
     margin-top: 32px;
@@ -392,7 +392,7 @@ span {
   #constituição {
     animation: go-back 1s;
     position: absolute;
-    margin-top: 1081%;
+    margin-top: 1833%;
     width: 100%;
   }
   .text-sexto {
@@ -409,7 +409,7 @@ span {
     animation: go-back 1s;
     width: 100%;
     position: absolute;
-    margin-top: 1235%;
+    margin-top: 2104%;
   }
   .text-setimo {
     margin-top: 39px;
